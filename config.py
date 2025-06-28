@@ -29,15 +29,15 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "1685470205")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://AYUFILE:AYUFILE@cluster0.3melgul.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "")
 DB_NAME = os.environ.get("DATABASE_NAME", "MovieReview🍿")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/+UpFIUbvRlYw1OWI9")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
-START_PIC = os.environ.get("START_PIC", "https://envs.sh/ogW.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/ogI.jpg")
+START_PIC = os.environ.get("START_PIC", "https://envs.sh/2KI.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/2Kn.jpg")
 #--------------------------------------------
 
 #--------------------------------------------
